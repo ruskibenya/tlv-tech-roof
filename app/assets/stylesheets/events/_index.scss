@@ -1,0 +1,32 @@
+@import "show";
+@import "event";
+
+.main{
+  display: flex;
+  width: 100%;
+}
+
+.list{
+  width: 60%;
+}
+
+.event_show{
+  width: 100%;
+  background-color: rgba(196, 196, 196, .28);
+  border-radius: 8px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.active{
+  background-color: #3EB2FB;
+  border-color: white;
+}
+
+.active .main-property{
+  color: white;
+}
+
+.active .secondary-property{
+  color: black;
+}

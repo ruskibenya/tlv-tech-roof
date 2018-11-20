@@ -210,3 +210,6 @@ events_attributes = [
     registration: "https://www.eventbrite.com/e/crowdfunding-tech-summit-2018-tickets-52178670809?aff=ebdssbdestsearch#tickets"
   }
 ]
+
+## generate event seeds for all event seed info
+Event.create!(events_attributes)

@@ -1,0 +1,12 @@
+<p style ="color: red;">TODO: Calander Dropdown</p>
+
+<div class = "main">
+  <div class="list" id="events">
+    <% @events.each do |event| %>
+        <%= render 'components/event_card', event: event %>
+    <% end %>
+  </div>
+  <div id="event-show" class="event_show"><%= render 'events/event', event: @events[0] %></div>
+</div>
+
+

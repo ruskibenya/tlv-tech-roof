@@ -1,0 +1,23 @@
+<%= link_to event_path(event), remote: true do %>
+  <div class = "card">
+    <div class ="label-icon">
+      <%= image_tag("event_icon") %>
+    </div>
+    <div class ="info">
+      <div class = "secondary-property time">
+        <%= event.time  %>
+      </div>
+      <div class = "main-property title">
+        <%= event.name %>
+      </div>
+      <div class = "secondary-property sponsor">
+        <%= event.sponsor %>
+      </div>
+      <div class = "secondary-property location">
+        <%= event.address %>
+      </div>
+    </div>
+    <div class = "logo-avatar">
+    </div>
+  </div>
+<% end %>
