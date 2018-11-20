@@ -1,0 +1,7 @@
+function renderEvent(eventHTML) {
+  var eventContainer = document.getElementById('event-show');
+  eventContainer.innerHTML = eventHTML;
+}
+
+var eventHTML = '<%= j render @event %>';
+renderEvent(eventHTML);

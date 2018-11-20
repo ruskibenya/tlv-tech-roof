@@ -1,0 +1,22 @@
+.card{
+  display: flex;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #3EB2FB;
+  border-width: .5px;
+  margin: 10px;
+  background-color: rgba(0, 47, 77, 0.43);
+}
+
+.main-property{
+  color: #3EB2FB;
+  font-family: 'Oswald', sans-serif;
+}
+
+.secondary-property{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+
